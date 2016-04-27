@@ -18,6 +18,8 @@
 		ADE9093C1CD0B276003C09D1 /* BookListCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE9093B1CD0B276003C09D1 /* BookListCellView.m */; };
 		ADE9093E1CD0B27B003C09D1 /* book_front_cover.png in Resources */ = {isa = PBXBuildFile; fileRef = ADE9093D1CD0B27B003C09D1 /* book_front_cover.png */; };
 		ADE909411CD0B326003C09D1 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE909401CD0B326003C09D1 /* DetailViewController.m */; };
+		B8B26F741CD0E3C8006AAC68 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B26F731CD0E3C8006AAC68 /* icon.png */; };
+		B8B26F761CD0E3D6006AAC68 /* screen.gif in Resources */ = {isa = PBXBuildFile; fileRef = B8B26F751CD0E3D6006AAC68 /* screen.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		ADE9093D1CD0B27B003C09D1 /* book_front_cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book_front_cover.png; sourceTree = "<group>"; };
 		ADE9093F1CD0B326003C09D1 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		ADE909401CD0B326003C09D1 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		B8B26F731CD0E3C8006AAC68 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		B8B26F751CD0E3D6006AAC68 /* screen.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = screen.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,7 @@
 				ADE909201CD0B21A003C09D1 /* TableCellPopupDemoTests */,
 				ADE9092B1CD0B21A003C09D1 /* TableCellPopupDemoUITests */,
 				ADE909051CD0B21A003C09D1 /* Products */,
+				B8B26F751CD0E3D6006AAC68 /* screen.gif */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +135,7 @@
 		ADE909071CD0B21A003C09D1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B8B26F731CD0E3C8006AAC68 /* icon.png */,
 				ADE909081CD0B21A003C09D1 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -256,7 +262,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8B26F761CD0E3D6006AAC68 /* screen.gif in Resources */,
 				ADE9093E1CD0B27B003C09D1 /* book_front_cover.png in Resources */,
+				B8B26F741CD0E3C8006AAC68 /* icon.png in Resources */,
 				ADE909171CD0B21A003C09D1 /* LaunchScreen.storyboard in Resources */,
 				ADE909141CD0B21A003C09D1 /* Assets.xcassets in Resources */,
 				ADE909121CD0B21A003C09D1 /* Main.storyboard in Resources */,
@@ -512,6 +520,7 @@
 				ADE909331CD0B21A003C09D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ADE909341CD0B21A003C09D1 /* Build configuration list for PBXNativeTarget "TableCellPopupDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +529,7 @@
 				ADE909361CD0B21A003C09D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ADE909371CD0B21A003C09D1 /* Build configuration list for PBXNativeTarget "TableCellPopupDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +538,7 @@
 				ADE909391CD0B21A003C09D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
